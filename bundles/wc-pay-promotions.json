@@ -176,7 +176,10 @@
                           "$ref": "#/definitions/operations"
                         },
                         "value": {
-                          "type": "string"
+                          "type": [
+                            "string",
+                            "array"
+                          ]
                         }
                       }
                     },
@@ -198,7 +201,10 @@
                           "$ref": "#/definitions/operations"
                         },
                         "value": {
-                          "type": "string"
+                          "type": [
+                            "string",
+                            "array"
+                          ]
                         }
                       }
                     },
@@ -708,7 +714,8 @@
         "contains",
         "!contains",
         "in",
-        "!in"
+        "!in",
+        "range"
       ]
     },
     "rules": {
@@ -843,7 +850,10 @@
               "$ref": "#/definitions/operations"
             },
             "value": {
-              "type": "string"
+              "type": [
+                "string",
+                "array"
+              ]
             }
           }
         },
@@ -865,7 +875,10 @@
               "$ref": "#/definitions/operations"
             },
             "value": {
-              "type": "string"
+              "type": [
+                "string",
+                "array"
+              ]
             }
           }
         },
