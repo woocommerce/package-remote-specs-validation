@@ -1,0 +1,49 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea
+.vscode/*
+project.xml
+project.properties
+.project
+.settings*
+*.sublime-project
+*.sublime-workspace
+.sublimelinterrc
+
+# Environment files
+wp-cli.local.yml
+yarn-error.log
+npm-debug.log
+.pnpm-debug.log
+
+# Build files
+*.sql
+*.swp
+*.zip
+
+# Project files
+node_modules/
+vendor/
+
+# Node Package Dependencies
+package-lock.json
+
+# Composer
+vendor/
+bin/composer/**/vendor/
+lib/vendor/
+contributors.md
+contributors.html
+
+# Yarn
+yarn.lock
+
+# Code analyzer output and env
+changes.json
+.env
+
+# Support .gitkeep Files
+!.gitkeep
